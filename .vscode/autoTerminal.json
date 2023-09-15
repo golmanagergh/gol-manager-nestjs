@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Connect to server SSH",
+        "description": "Connect to server SSH 🔥",
+        "runOnStartUp": false,
+        "windowTerminals": [
+            [
+                {
+                    "name": "[SSH] Droplet",
+                    "commands": [
+                        "ssh root@gol-manager-api-droplet",
+                        "cd /home/api/gol-manager-nest"
+                    ],
+                    "runLast": true
+                }
+            ]
+        ]
+    }
+]
